@@ -1,0 +1,72 @@
+<html> 
+<head>
+	<link rel="stylesheet" type="text/css" href="/homepage.css/homepage.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><script src="/homepage.js/js.js"></script>
+	  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+</head>
+	<body>
+ <nav>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#!">First Sidebar Link</a></li>
+        <li><a href="#!">Second Sidebar Link</a></li>
+      </ul>
+      <ul id="slide-out" class="side-nav">
+        <li><a href="#!">First Sidebar Link</a></li>
+        <li><a href="#!">Second Sidebar Link</a></li>
+      </ul>
+      <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    </nav>
+
+    <div class="row" id="input-row">
+      <div class="col offset-l3 l6 offset-m2 m8 s12">
+        <div class="card">
+          <div class="card-content">
+            <h4>Make a new post!</h4>
+            <form>
+              <textarea placeholder="Whats on your mind...?" class="materialize-textarea post-textarea"></textarea>
+              <div class="btn waves-effect waves-light" id="makePostButton">Make post!</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="post-row">
+      <div class="col offset-l3 l6 offset-m2 m8 s12">
+        <div class="card">
+          <div class="card-content">This is my first post!</div>
+        </div>
+      </div>
+
+    </div>
+
+
+		Toodles!
+		<a href ="/social/profile.html">Profile!</a>
+		
+		<div id="tab-widget">
+			<div id="tab-buttons">
+			<span class="tab" data-contentid="#newsfeed">Newsfeed</span>
+			<span class="tab" data-contentid="#photos">Photos</span>
+			<span class="tab" data-contentid="#pages">Pages</span>
+		</div>
+
+			<div id="tab-content">
+				<div class="content" id="newsfeed"></div>
+				<div class="content" id="photos" style="display:none;"></div>
+				<div class="content" id="pages" style="display:none;"></div>
+			</div>
+
+
+
+		</div>
+		<div class="ball" id="red"></div>
+		<div class="ball" id="green"></div>
+		<div class="ball" id="blue"></div>
+	</body>
+
+</html>
